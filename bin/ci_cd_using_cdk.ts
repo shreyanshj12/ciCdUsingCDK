@@ -9,3 +9,4 @@ const env = new Env("483514200526", "eu-west-1");
 new CiCdUsingCdkStack(app, `CICD-Pipeline-Stack`, {
   env,
 });
+app.synth();
