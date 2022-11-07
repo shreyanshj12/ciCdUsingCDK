@@ -7,5 +7,3 @@ export class Env {
     this.region = region;
   }
 }
-
-export const ENV = new Env("483514200526", "eu-west-1");
