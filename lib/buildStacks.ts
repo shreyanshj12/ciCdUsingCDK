@@ -27,6 +27,5 @@ export function buildStacks() {
     lambdaStackProps
   );
   lambdaStack.addDependency(storageStack);
-  const logicId = storageStack.lambdaResources.bucketOutput.logicalId;
   app.synth();
 }
